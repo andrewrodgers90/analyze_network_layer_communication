@@ -42,7 +42,7 @@ As an analyst, you can inspect network traffic and network data to determine wha
 
 This event, in the meantime, is being handled by security engineers after you and other analysts have reported the issue to your direct supervisor. 
 
-## Step 3: Provide a summary of the problem found in the tcpdump log
+## Step 1: Provide a summary of the problem found in the tcpdump log
 
 After analyzing the data presented to you from the tcpdump log, identify trends in the data. Assess which protocol is producing the error message from the DNS server for the yummyrecipesforme.com website. Recall that one of the ports that is displayed repeatedly is port 53, commonly used for DNS. In your analysis:  
 
@@ -51,7 +51,7 @@ After analyzing the data presented to you from the tcpdump log, identify trends 
 + Interpret the issues found in the log.
 + Record your responses in part one of the <a href="https://github.com/andrewrodgers90/analyze_network_layer_communication/blob/main/cybersecurity_incident_report.md">cybersecurity incident report</a>.  
 
-## Step 4: Explain your analysis of the data and provide one solution to implement 
+## Step 2: Explain your analysis of the data and provide one solution to implement 
 
 Now that you’ve inspected the traffic log and identified trends in the traffic, describe why the error messages appeared on the log. Use your answer in the previous step and the scenario to identify the reason behind the ICMP error messages. The error messages indicate that there is an issue with a specific port. What do the different protocols involved in the log reveal about the incident? In your response:
 
